@@ -6,10 +6,23 @@ export const metadata: Metadata = {
   description: 'Ihr Studio für ästhetische Kosmetik und professionelle Hautpflege in Bregenz. Anti-Aging, Chemical Peeling, Permanent Make-up, HydraFacial & mehr. Jetzt Beratung vereinbaren.',
   keywords: 'Kosmetik Bregenz, ästhetische Kosmetik, Anti-Aging, Chemical Peeling, Permanent Make-up, HydraFacial, Mikrodermabrasion, Vorarlberg',
   openGraph: {
-    title: 'Art Cosmetic | Ästhetische Kosmetik Bregenz',
-    description: 'Modernste ästhetische Kosmetik und professionelle Hautpflege in Bregenz.',
+    title: 'Art Cosmetic Bregenz',
+    description: 'Ästhetische Kosmetik & professionelle Hautpflege in Bregenz',
+    images: [
+      {
+        url: '/og?name=Art%20Cosmetic&tagline=%C3%84sthetische%20Kosmetik%20%C2%B7%20Bregenz&color=%23E8B4B8',
+        width: 1200,
+        height: 630,
+      },
+    ],
     type: 'website',
     locale: 'de_AT',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Art Cosmetic Bregenz',
+    description: 'Ästhetische Kosmetik & professionelle Hautpflege in Bregenz',
+    images: ['/og'],
   },
   icons: {
     icon: [
