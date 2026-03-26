@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import WhatsAppButton from '@/components/WhatsAppButton'
 
 const treatments = [
   {
@@ -617,6 +618,7 @@ export default function HomePage() {
           </div>
         </div>
       </footer>
+      <WhatsAppButton phone="+43 664 123 4567" />
     </div>
   )
 }
